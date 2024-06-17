@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Importar Repositorio') {
             steps {
-                git 'https://github.com/tfg2asircanaveral2024/8-proyecto-powershell.git'
+                git branch: 'correcto', url: 'https://github.com/tfg2asircanaveral2024/8-proyecto-powershell.git'
             }
         }
         stage('Dependencias (PSDepend)') {
