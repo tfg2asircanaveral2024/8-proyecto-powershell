@@ -1,0 +1,19 @@
+# Reglas que deben ser tenidas en cuenta por PSScriptAnalyzer al realizar los testeos de calidad del código. Una por línea.
+PSReservedCmdletChar
+PSReservedParams
+PSUseShouldProcessForStateChangingFunctions
+PSShouldProcess
+PSMissingModuleManifestField
+PSAvoidUsingEmptyCatchBlock
+PSUseCmdletCorrectly
+PSUseDeclaredVarsMoreThanAssignments
+PSAvoidUsingPlanTextForPassword
+PSAvoidUsingComputerNameHardCoded
+PSAvoidInvokingEmptyMembers
+PSAvoidMultipleTypeAttributes
+PSAvoidOverwritingBuiltInCmdlets
+PSUseCompatibleSyntax
+PSPossibleIncorrectUsageOfAssignmentOperator
+PSUseLiteralInitializerForHashtable
+PSUseToExportFieldsInManifest
+PSAvoidUsingCmdletAliases
